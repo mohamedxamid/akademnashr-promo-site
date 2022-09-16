@@ -1,3 +1,4 @@
+/* SITENAV */
 .nav-link {
     font-weight: 500;
     font-size: 13px;
@@ -16,6 +17,7 @@
     text-decoration: none;
     color: #ffffff;
 }
+/* HERO */
 .hero {
     background-color: #252420;
     color: #ffffff;
@@ -44,6 +46,7 @@
     width: 510px;
     height: 510px;
 }
+/* FEATURES */
 .features-heading {
     width: 435px;
     font-weight: 700;
@@ -70,6 +73,7 @@
     line-height: 150%;
     letter-spacing: 0.5px;
 }
+/* PROMO */
 .promo-section {
     background-color: #252420;
 }
@@ -97,6 +101,7 @@
     height: 440px;
     object-fit: cover;
 }
+/* SITE-FOOTER */
 .site-footer {
     background-color: #F8F8F8;
 }
