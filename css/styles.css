@@ -1,0 +1,119 @@
+.nav-link {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+.main-link {
+    background-color: #FF7500;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.hero {
+    background-color: #252420;
+    color: #ffffff;
+}
+.hero-content {
+    width: 390px;
+}
+.orange-line {
+    width: 80px;
+    height: 3px;
+    background-color: #FF7500;
+}
+.hero-heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+}
+.hero-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+}
+.hero-img {
+    width: 510px;
+    height: 510px;
+}
+.features-heading {
+    width: 435px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+}
+.features-item {
+    width: 340px;
+}
+.feature-icon-wrapper {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 117, 0, 0.2);
+}
+.features-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+}
+.features-text {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+}
+.promo-section {
+    background-color: #252420;
+}
+.promo-content {
+    width: 440px;
+}
+.promo-heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+}
+.promo-text {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+}
+.promo-text strong {
+    color: #FF7500;
+}
+.promo-img {
+    width: 440px;
+    height: 440px;
+    object-fit: cover;
+}
+.site-footer {
+    background-color: #F8F8F8;
+}
+.socials-list {
+    list-style: none;
+}
+.site-footer-divider {
+    height: 2px;
+    background-color: rgba(37, 36, 32, 0.5);
+}
+.links-list {
+    list-style: none;
+    width: 224px;
+}
+.links-link {
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #252420;
+}
