@@ -4,7 +4,21 @@ body {
     line-height: 150%;
     letter-spacing: 0.5px;
 }
+/* HEADER */
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-header-actions {
+    display: flex;
+    align-items: center;
+}
 /* SITENAV */
+.nav-list {
+    display: flex;
+    list-style: none;
+}
 .nav-link {
     font-weight: 500;
     font-size: 13px;
@@ -24,6 +38,9 @@ body {
 }
 /* HERO */
 .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #252420;
     color: #ffffff;
 }
@@ -53,6 +70,11 @@ body {
     font-size: 72px;
     line-height: 120%;
 }
+.features-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
 .features-item {
     width: 340px;
 }
@@ -69,6 +91,9 @@ body {
 }
 /* PROMO */
 .promo-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #252420;
 }
 .promo-content {
@@ -96,12 +121,23 @@ body {
 .site-footer {
     background-color: #F8F8F8;
 }
+.site-footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .socials-list {
+    display: flex;
+    align-items: center;
     list-style: none;
 }
 .site-footer-divider {
     height: 2px;
     background-color: rgba(37, 36, 32, 0.5);
+}
+.site-footer-links {
+    display: flex;
+    justify-content: space-between;
 }
 .links-list {
     list-style: none;
