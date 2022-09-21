@@ -10,6 +10,15 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+.logo-link {
+    transition: opacity 0.4s ease;
+}
+.logo-link:hover {
+    opacity: 0.8;
+}
+.logo-link:active {
+    opacity: 0.6;
+}
 .site-header-actions {
     display: flex;
     align-items: center;
@@ -27,6 +36,14 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color: #000000;
+    transition: color 0.4s ease,
+        opacity 0.4s ease;
+}
+.nav-link:hover {
+    color: #FF7500;
+}
+.nav-link:active {
+    opacity: 0.6;
 }
 .main-link {
     background-color: #FF7500;
@@ -35,6 +52,13 @@ body {
     line-height: 15px;
     text-decoration: none;
     color: #ffffff;
+    transition: opacity 0.4s ease;
+}
+.main-link:hover {
+    opacity: 0.8;
+}
+.main-link:active {
+    opacity: 0.6;
 }
 /* HERO */
 .hero {
@@ -131,6 +155,17 @@ body {
     align-items: center;
     list-style: none;
 }
+.socials-link {
+    color: #252420;
+    transition: color 0.4s ease,
+        opacity 0.4s ease;
+}
+.socials-link:hover {
+    color: #FF7500;
+}
+.socials-link:active {
+    opacity: 0.6;
+}
 .site-footer-divider {
     height: 2px;
     background-color: rgba(37, 36, 32, 0.5);
@@ -147,4 +182,12 @@ body {
 .links-link {
     text-decoration: none;
     color: #252420;
+    transition: color 0.4s ease,
+        opacity 0.4s ease   ;
+}
+.links-link:hover {
+    color: #FF7500;
+}
+.links-link:active {
+    opacity: 0.6;
 }
