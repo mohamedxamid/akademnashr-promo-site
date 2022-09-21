@@ -4,6 +4,10 @@ body {
     line-height: 150%;
     letter-spacing: 0.5px;
 }
+*:focus {
+    outline: 2px dotted #FF7500;
+    outline-offset: 3px;
+}
 /* HEADER */
 .site-header {
     display: flex;
