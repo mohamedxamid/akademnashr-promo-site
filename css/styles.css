@@ -34,7 +34,15 @@ body {
 .nav-list {
     display: flex;
     padding-left: 0;
+    margin: 0;
+    margin-right: 32px;
     list-style: none;
+}
+.nav-item {
+    margin-right: 32px;
+}
+.nav-item:last-child {
+    margin-right: 0;
 }
 .nav-link {
     font-weight: 500;
@@ -87,14 +95,21 @@ body {
 .orange-line {
     width: 80px;
     height: 3px;
+    margin: 0;
     border: none;
     background-color: #FF7500;
 }
 .hero-heading {
+    margin-top: 40px;
+    margin-bottom: 24px;
     font-family: "Roboto Condensed", "Arial", sans-serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 120%;
+}
+.hero-text {
+    margin-top: 0;
+    margin-bottom: 32px;
 }
 .hero-img {
     width: 510px;
@@ -108,6 +123,8 @@ body {
 }
 .features-heading {
     width: 435px;
+    margin-top: 24px;
+    margin-bottom: 72px;
     font-family: "Roboto Condensed", "Arial", sans-serif;
     font-weight: 700;
     font-size: 72px;
@@ -115,12 +132,16 @@ body {
 }
 .features-list {
     display: flex;
-    justify-content: space-between;
     padding-left: 0;
+    margin: 0;
     list-style: none;
 }
 .features-item {
     width: 340px;
+    margin-right: 40px;
+}
+.features-item:last-child {
+    margin-right: 0;
 }
 .feature-icon-wrapper {
     display: flex;
@@ -151,14 +172,24 @@ body {
     width: 440px;
 }
 .promo-heading {
+    margin-top: 0;
+    margin-bottom: 24px;
     font-family: "Roboto Condensed", "Arial", sans-serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 120%;
     color: #ffffff;
 }
+.promo-info-wrapper {
+    margin-bottom: 24px;
+}
 .promo-text {
+    margin-top: 0;
+    margin-bottom: 12px;
     color: #ffffff;
+}
+.promo-text:last-child {
+    margin-bottom: 0;
 }
 .promo-text strong {
     color: #FF7500;
@@ -184,7 +215,14 @@ body {
     display: flex;
     align-items: center;
     padding-left: 0;
+    margin: 0;
     list-style: none;
+}
+.socials-item {
+    margin-right: 16px;
+}
+.socials-item:last-child {
+    margin-right: 0;
 }
 .socials-link {
     color: #252420;
@@ -198,19 +236,25 @@ body {
     opacity: 0.6;
 }
 .site-footer-divider {
+    margin-top: 40px;
+    margin-bottom: 64px;
     border: none;
     height: 2px;
     background-color: rgba(37, 36, 32, 0.5);
 }
 .site-footer-links {
     display: flex;
-    justify-content: space-between;
 }
 .links-list {
     padding-left: 0;
+    margin: 0;
+    margin-right: 68px;
     list-style: none;
     width: 224px;
     line-height: 19px;
+}
+.links-list:last-child {
+    margin-right: 0;
 }
 .links-link {
     text-decoration: none;
