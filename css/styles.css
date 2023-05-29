@@ -133,6 +133,7 @@ body {
     color: var(--white-color);
 }
 .hero-container {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -160,6 +161,9 @@ body {
     margin-bottom: 32px;
 }
 .hero-img {
+    position: absolute;
+    top: -40px;
+    right: 20px;
     width: 510px;
     height: 510px;
     border-radius: 8px;
@@ -219,6 +223,7 @@ body {
     padding-bottom: 160px;
 }
 .promo-inner {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -253,6 +258,9 @@ body {
     color: var(--accent-color);
 }
 .promo-img {
+    position: absolute;
+    bottom: 64px;
+    right: 64px;
     width: 440px;
     height: 440px;
     border-radius: 12px;
