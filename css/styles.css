@@ -266,56 +266,69 @@ body {
     border-radius: 12px;
     object-fit: cover;
 }
+
+
 /* SITE-FOOTER */
 .site-footer {
     padding-top: 56px;
     padding-bottom: 56px;
     background-color: #F8F8F8;
 }
-.site-footer-top {
+
+.site-footer__logo-socials-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.socials-list {
+
+.footer-socials {
     display: flex;
     align-items: center;
     padding-left: 0;
     margin: 0;
     list-style: none;
 }
-.socials-item {
+
+.footer-socials__item {
     margin-right: 16px;
 }
-.socials-item:last-child {
+
+.footer-socials__item:last-child {
     margin-right: 0;
 }
-.socials-link {
+
+.footer-socials__link {
     display: block;
     color: var(--bg-color);
     transition: var(--transition-color),
         var(--transition-opacity);
 }
-.socials-link:hover {
+
+.footer-socials__link:hover {
     color: var(--accent-color);
 }
-.socials-link:active {
+
+.footer-socials__link:active {
     opacity: 0.6;
 }
-.socials-link svg {
+
+.footer-socials__icon {
     display: block;
 }
-.site-footer-divider {
+
+.site-footer__divider {
     margin-top: 40px;
     margin-bottom: 64px;
     border: none;
     height: 2px;
     background-color: rgba(37, 36, 32, 0.5);
 }
-.site-footer-links {
+
+.site-footer__links-wrapper {
     display: flex;
 }
-.links-list {
+
+.footer-links {
     padding-left: 0;
     margin: 0;
     margin-right: 68px;
@@ -323,24 +336,30 @@ body {
     width: 224px;
     line-height: 19px;
 }
-.links-list:last-child {
+
+.footer-links:last-child {
     margin-right: 0;
 }
-.links-item {
+
+.footer-links__item {
     margin-bottom: 12px;
 }
-.links-item:last-child {
+
+.footer-links__item:last-child {
     margin-bottom: 0;
 }
-.links-link {
+
+.footer-links__link {
     text-decoration: none;
     color: var(--bg-color);
     transition: var(--transition-color),
         var(--transition-opacity) ;
 }
-.links-link:hover {
+
+.footer-links__link:hover {
     color: var(--accent-color);
 }
-.links-link:active {
+
+.footer-links__link:active {
     opacity: 0.6;
 }
