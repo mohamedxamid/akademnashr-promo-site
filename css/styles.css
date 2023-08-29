@@ -388,6 +388,18 @@ body {
     }
 }
 
+@media only screen and (max-width: 1100px) {
+    .promo-img {
+        position: static;
+        width: 400px;
+        height: 400px;
+    }
+
+    .promo-content {
+        margin-right: 60px;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
     .hero-content {
         flex-grow: 1;
@@ -401,6 +413,26 @@ body {
     .hero-img {
         width: 350px;
         height: 350px;
+    }
+
+    .promo-heading {
+        font-size: 36px;
+    }
+
+    .promo-img {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .promo-inner {
+        padding: 34px;
+    }
+    
+    .promo-img {
+        width: 300px;
+        height: 300px;
     }
 }
 
@@ -427,6 +459,7 @@ body {
         margin-right: 0;
         text-align: center;
     }
+    
     .features {
         padding-top: 150px;
         padding-bottom: 150px;
@@ -453,6 +486,24 @@ body {
 
     .features-item:last-child {
         margin-right: 8%;
+    }
+
+    .promo-section {
+        padding-top: 0;
+        padding-bottom: 120px;
+    }
+
+    .promo-inner {
+        flex-direction: column-reverse;
+    }
+
+    .promo-content {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .promo-img {
+        margin-bottom: 68px;
     }
 
     .site-footer__links-wrapper {
@@ -510,6 +561,26 @@ body {
         margin-bottom: 0;
     }
 
+    .promo-section {
+        padding-bottom: 80px;
+    }
+
+    .promo-inner {
+        padding: 24px;
+        margin-left: -20px;
+        margin-right: -20px;
+        border-radius: 0;
+    }
+
+    .promo-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .promo-content {
+        width: 100%;
+    }
+
     .site-footer {
         padding-top: 36px;
         padding-bottom: 36px;
@@ -541,6 +612,18 @@ body {
 @media only screen and (max-width: 400px) {
     .hero-img {
         box-shadow: none;
+    }
+
+    .promo-heading {
+        font-size: 26px;
+    }
+
+    .promo-text {
+        font-size: 14px;
+    }
+
+    .promo-img {
+        margin-bottom: 48px;
     }
 
     .features {
